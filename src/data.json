@@ -1,0 +1,214 @@
+[
+  {
+    "id": 1,
+    "title": "Зеленая спортивка",
+    "price": "1200$",
+    "image": "http://localhost:3002/images/greensport.jpg",
+    "category": "clothes"
+  },
+  {
+    "id": 2,
+    "title": "Сортивка СССР",
+    "price": "800$",
+    "image": "http://localhost:3002/images/sportussr.jpg",
+    "category": "clothes"
+  },
+  {
+    "id": 3,
+    "title": "Серая спортивная куртка",
+    "price": "1700$",
+    "image": "http://localhost:3002/images/greyclothes.jpg",
+    "category": "clothes"
+  },
+  {
+    "id": 4,
+    "title": "Оранжевая спортивка",
+    "price": "1200$",
+    "image": "http://localhost:3002/images/orangesport.jpg",
+    "category": "clothes"
+  },
+  {
+    "id": 5,
+    "title": "Синяя спортивка",
+    "price": "800$",
+    "image": "http://localhost:3002/images/bluesport.jpg",
+    "category": "clothes"
+  },
+  {
+    "id": 6,
+    "title": "Фиолетовая спортивка",
+    "price": "1700$",
+    "image": "http://localhost:3002/images/pinksport.jpg",
+    "category": "clothes"
+  },
+  {
+    "id": 7,
+    "title": "Черная спортивка",
+    "price": "1700$",
+    "image": "http://localhost:3002/images/blacksport.jpg",
+    "category": "clothes"
+  },
+  {
+    "id": 8,
+    "title": "Белая Nike спортивка",
+    "price": "1700$",
+    "image": "http://localhost:3002/images/whitenikesport.jpg",
+    "category": "clothes"
+  },
+  {
+    "id": 9,
+    "title": "Темно-синяя спортивка",
+    "price": "800$",
+    "image": "http://localhost:3002/images/darkbluesport.jpg",
+    "category": "clothes"
+  },
+  {
+    "id": 10,
+    "title": "Unaffected спортивка",
+    "price": "1700$",
+    "image": "http://localhost:3002/images/unaffectedsport.jpg",
+    "category": "clothes"
+  },
+
+  {
+    "id": 11,
+    "title": "Nike Air Force",
+    "price": "600$",
+    "image": "http://localhost:3002/images/force.jpg",
+    "category": "sneakers"
+  },
+  {
+    "id": 12,
+    "title": "Nike Air Jordan",
+    "price": "800$",
+    "image": "http://localhost:3002/images/jordans.jpg",
+    "category": "sneakers"
+  },
+  {
+    "id": 13,
+    "title": "Кроссовки Puma",
+    "price": "1900$",
+    "image": "http://localhost:3002/images/puma.jpg",
+    "category": "sneakers"
+  },
+  {
+    "id": 14,
+    "title": "Белые Jordan",
+    "price": "600$",
+    "image": "http://localhost:3002/images/whitejord.jpg",
+    "category": "sneakers"
+  },
+  {
+    "id": 15,
+    "title": "New Balance кроссовки",
+    "price": "800$",
+    "image": "http://localhost:3002/images/newbalance.jpg",
+    "category": "sneakers"
+  },
+  {
+    "id": 16,
+    "title": "Черно-белые Force",
+    "price": "1900$",
+    "image": "http://localhost:3002/images/bwforces.jpg",
+    "category": "sneakers"
+  },
+  {
+    "id": 17,
+    "title": "Фиолетовые Force",
+    "price": "800$",
+    "image": "http://localhost:3002/images/pinkforce.jpg",
+    "category": "sneakers"
+  },
+  {
+    "id": 18,
+    "title": "Серые New Balance",
+    "price": "1900$",
+    "image": "http://localhost:3002/images/greynewbalance.jpg",
+    "category": "sneakers"
+  },
+  {
+    "id": 19,
+    "title": "Коричневые Force",
+    "price": "800$",
+    "image": "http://localhost:3002/images/brownforces.jpg",
+    "category": "sneakers"
+  },
+  {
+    "id": 20,
+    "title": "Оранжевые Jordan",
+    "price": "1900$",
+    "image": "http://localhost:3002/images/orangejordan.jpg",
+    "category": "sneakers"
+  },
+
+  {
+    "id": 21,
+    "title": "Черные штаны 01",
+    "price": "120000$",
+    "image": "http://localhost:3002/images/blackpants.jpg",
+    "category": "pants"
+  },
+  {
+    "id": 22,
+    "title": "Серые штаны",
+    "price": "8000$",
+    "image": "http://localhost:3002/images/greypants.jpg",
+    "category": "pants"
+  },
+  {
+    "id": 23,
+    "title": "Черные штаны E",
+    "price": "1488$",
+    "image": "http://localhost:3002/images/blackpantse.jpg",
+    "category": "pants"
+  },
+  {
+    "id": 24,
+    "title": "Голубые штаны",
+    "price": "120000$",
+    "image": "http://localhost:3002/images/bluepants.jpg",
+    "category": "pants"
+  },
+  {
+    "id": 25,
+    "title": "Фиолетовые штаны",
+    "price": "120000$",
+    "image": "http://localhost:3002/images/purplepants.jpg",
+    "category": "pants"
+  },
+  {
+    "id": 26,
+    "title": "Черные штаны Calvin Klein Jeans",
+    "price": "120000$",
+    "image": "http://localhost:3002/images/calvinblackpants.jpg",
+    "category": "pants"
+  },
+  {
+    "id": 27,
+    "title": "Черные штаны Nike",
+    "price": "120000$",
+    "image": "http://localhost:3002/images/blaskpantsnike.jpg",
+    "category": "pants"
+  },
+  {
+    "id": 28,
+    "title": "Темно-синие штаны",
+    "price": "120000$",
+    "image": "http://localhost:3002/images/darkbluepants.jpg",
+    "category": "pants"
+  },
+  {
+    "id": 29,
+    "title": "Коричневые штаны",
+    "price": "120000$",
+    "image": "http://localhost:3002/images/brownpants.jpg",
+    "category": "pants"
+  },
+  {
+    "id": 30,
+    "title": "Белые штаны",
+    "price": "120000$",
+    "image": "http://localhost:3002/images/whitepants.jpg",
+    "category": "pants"
+  }
+]

@@ -1,0 +1,56 @@
+@import '../../styles/variables';
+.root {
+  padding: 30px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Caveat', cursive;
+  color: white;
+  color: #5c50ad;
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  color: white;
+  color: #5c50ad;
+  font-family: 'Caveat', cursive;
+  margin-left: 10px;
+  font-size: 2rem;
+}
+
+.headerRight {
+  .cart {
+    padding: 7px 10px;
+    border: none;
+    color: white;
+    background-color: #5c50ad;
+    cursor: pointer;
+    border-radius: 7px;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+
+    &:active {
+      transform: translate(0px, 1px);
+    }
+
+    svg {
+      width: 23px;
+      margin-right: 5px;
+    }
+
+    &:hover {
+      background-color: darken(#5c50ad, 5%);
+    }
+    &:active {
+      background-color: darken(#5c50ad, 10%);
+    }
+  }
+}
+
+.headerLeft {
+  cursor: pointer;
+}

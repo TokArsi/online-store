@@ -1,0 +1,21 @@
+.empty {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 1.2rem;
+  color: #313131;
+}
+
+.button {
+  padding: 15px 20px;
+  border-radius: 10px;
+  float: right;
+  margin-top: 30px;
+  background-color: transparent;
+  border: 2px solid #5c50ad;
+  color: #5c50ad;
+  transition: 0.1s all ease-in-out;
+  &:hover {
+    background-color: #5c50ad;
+    color: white;
+  }
+}

@@ -1,0 +1,66 @@
+@import '../../styles/variables';
+
+.root {
+  padding: 20px;
+  background-color: white;
+
+  border-radius: 7px;
+  width: 23%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  &:nth-of-type(4n) {
+    margin-right: 0;
+  }
+
+  &:hover {
+    box-shadow: 0 0 15px 0px #5c50ad9f;
+    transition: 0.2s all;
+  }
+}
+
+.image {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.title {
+}
+.title,
+.price {
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.bottom {
+  margin-top: auto;
+}
+
+.button {
+  cursor: pointer;
+  background-color: $primary;
+  color: white;
+  background-color: #5c50ad;
+
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 7px;
+
+  &:hover {
+    background-color: darken(#5c50ad, 5%);
+  }
+  &:active {
+    background-color: darken(#5c50ad, 10%);
+  }
+}
+
+.added {
+  background-color: lighten(#5c50ad, 20%) !important;
+}

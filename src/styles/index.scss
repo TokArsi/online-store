@@ -1,0 +1,29 @@
+@import './variables';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'system-ui', sans-serif;
+}
+
+body {
+  background-color: rgb(205, 53, 78);
+  background-color: $primary;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.items {
+  display: flex;
+  // justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 0px;
+}
