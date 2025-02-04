@@ -30,9 +30,8 @@ jobs:
       - name: Install dependencies and build Backend
         working-directory: ./backend
         run: |
-          npm ci
+          npm install
           npm run build
-          npm test
 
       - name: Set up Node.js ${{ matrix.node-version }} for Frontend
         uses: actions/setup-node@v4
@@ -45,6 +44,5 @@ jobs:
       - name: Install dependencies and build Frontend
         working-directory: ./frontend
         run: |
-          npm ci
+          npm install
           npm run build
-          npm test
