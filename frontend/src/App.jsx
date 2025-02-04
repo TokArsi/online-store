@@ -18,7 +18,7 @@ function App() {
             const response = await fetch(url);
             console.log(response)
             if (!response.ok) {
-                throw new Error(`Ошибка запроса: ${response.status}`);
+                throw new Error(`Ошибк запроса: ${response.status}`);
             }
 
             const data = await response.json();
