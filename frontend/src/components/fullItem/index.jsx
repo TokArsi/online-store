@@ -1,11 +1,11 @@
 import styles from './FullItem.module.scss';
 import { useLocation } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import data from '../../data.json';
 import { addItem, removeItem } from '../../redux/slices/cartSlice';
 
 const FullItem = () => {
   const location = useLocation();
+  const data = useSelector((state) => state.data);
 
   const productId =
     location.pathname.split('/')[location.pathname.split('/').length - 1];

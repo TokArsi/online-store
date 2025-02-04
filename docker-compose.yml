@@ -1,0 +1,21 @@
+services:
+  frontend:
+    build:
+      context: ./frontend      # Путь к Dockerfile для фронтенда
+      dockerfile: Dockerfile   # Название Dockerfile
+    ports:
+      - "3000:3000"            # Пробрасываем порт для React
+    volumes:
+      - ./frontend:/app        # Монтируем исходный код для разработки
+    depends_on:
+      - backend                # Фронтенд запускается после бэкенда
+
+  backend:
+    build:
+      context: ./backend       # Путь к Dockerfile для бэкенда
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"            # Пробрасываем порт для API
+    volumes:
+      - ./backend:/app
+

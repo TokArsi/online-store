@@ -12,7 +12,7 @@ const Header = () => {
         className={styles.headerLeft}
         style={{ display: 'flex', alignItems: 'center' }}
       >
-        <h1 className={styles.title}>Elhanchik.shop</h1>
+        <h1 className={styles.title}>USA shop</h1>
         <p className={styles.subtitle}> - товары из США</p>
         <img
           width={'50px'}

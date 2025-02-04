@@ -23,6 +23,6 @@ const StoreDataScheme = new Schema({
         required: true
     }
 })
-//Создание модели на основе схемы
+
 const StoreData= mongoose.model('storecollections', StoreDataScheme);
 export default StoreData

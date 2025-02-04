@@ -7,7 +7,7 @@ const Categories = ({ setActive, active }) => {
       <Link to={'/shop'}>
         <button
           className={`${styles.category} ${
-            active == 'clothes' && styles.active
+            active === 'clothes' && styles.active
           }`}
           onClick={() => setActive('clothes')}
         >
@@ -15,7 +15,7 @@ const Categories = ({ setActive, active }) => {
         </button>
         <button
           className={`${styles.category} ${
-            active == 'sneakers' && styles.active
+            active === 'sneakers' && styles.active
           }`}
           onClick={() => setActive('sneakers')}
         >
@@ -23,7 +23,7 @@ const Categories = ({ setActive, active }) => {
         </button>
         <button
           className={`${styles.category} ${
-            active == 'pants' && styles.active
+            active === 'pants' && styles.active
           }`}
           onClick={() => setActive('pants')}
         >
