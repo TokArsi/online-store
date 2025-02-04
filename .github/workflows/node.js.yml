@@ -8,6 +8,10 @@ on:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
+defaults:
+  run:
+    shell: bash
+    working-directory: ./frontend
 
 jobs:
   build:
@@ -15,6 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
+        shell: bash
         working-directory: ./frontend
 
     strategy:
